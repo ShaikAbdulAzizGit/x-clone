@@ -21,132 +21,177 @@
             </div>
         </nav>
     </header>
-    <main class="flex sm:mx-auto w-fit lg:mx-0">
+    <main class="flex sm:mx-auto w-fit lg:mx-0 xl:mx-auto">
 
         <section
-            class="left-navbar hidden sm:flex h-screen items-center xl:items-start justify-between flex-col space-y-3 py-3 mr-5 sticky top-0 ml-10">
-            <img src="twitter_logo.ico" alt="twitter_logo">
-            <div class="flex flex-col items-center xl:items-start gap-y-5 lg:h-full justify-between">
-                <button class="xl:flex gap-x-4">
-                                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
-                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+            class="left-navbar hidden sm:flex h-screen items-center xl:items-start justify-between flex-col space-y-3 py-3 mr-5 sticky top-0 ml-10 [&_button:not(:last-child)]:hover:bg-white/15 [&_button]:pl-2 [&_button]:pr-5 [&_button]:py-2 [&_button]:rounded-full [&_button]:transition-colors [&_button]:duration-300 [&_button]:cursor-pointer ">
+            <!-- <img src="twitter_logo.ico" alt="twitter_logo" class="xl:p-2"> -->
+            <div class="xl:p-2 hover:bg-white/10 transition duration-300 rounded-full">
+                <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="white"
+                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                     <g>
                         <path
-                            d="M10.059 2.593c1.175-.784 2.707-.784 3.882 0l6.5 4.333C21.415 7.575 22 8.668 22 9.838V18.5c0 1.933-1.567 3.5-3.5 3.5h-4.25v-5.25c0-1.243-1.007-2.25-2.25-2.25s-2.25 1.007-2.25 2.25V22H5.5C3.567 22 2 20.433 2 18.5V9.838c0-1.17.585-2.263 1.559-2.912l6.5-4.333z">
+                            d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
                         </path>
                     </g>
                 </svg>
-                <p class="hidden xl:block text-xl font-bold">Home</p>
+            </div>
+            <div class="flex flex-col items-center xl:items-start lg:h-full justify-between">
+                <button class="xl:flex gap-x-4">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M10.059 2.593c1.175-.784 2.707-.784 3.882 0l6.5 4.333C21.415 7.575 22 8.668 22 9.838V18.5c0 1.933-1.567 3.5-3.5 3.5h-4.25v-5.25c0-1.243-1.007-2.25-2.25-2.25s-2.25 1.007-2.25 2.25V22H5.5C3.567 22 2 20.433 2 18.5V9.838c0-1.17.585-2.263 1.559-2.912l6.5-4.333z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">Home</p>
                 </button>
                 <button class="xl:flex gap-x-4">
 
-                <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
-                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                    <g>
-                        <path
-                            d="M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z">
-                        </path>
-                    </g>
-                </svg>
-                <p class="hidden xl:block text-xl font-bold">Explore</p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">Explore</p>
                 </button>
                 <button class="xl:flex gap-x-4">
-                <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
-                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                    <g>
-                        <path
-                            d="M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z">
-                        </path>
-                    </g>
-                </svg>
-                <p class="hidden xl:block text-xl font-bold">Notifications</p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">Notifications</p>
                 </button>
                 <button class="xl:flex gap-x-4">
 
-                <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
-                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                    <g>
-                        <path
-                            d="M10 4c-1.105 0-2 .9-2 2s.895 2 2 2 2-.9 2-2-.895-2-2-2zM6 6c0-2.21 1.791-4 4-4s4 1.79 4 4-1.791 4-4 4-4-1.79-4-4zm13 4v3h2v-3h3V8h-3V5h-2v3h-3v2h3zM3.651 19h12.698c-.337-1.8-1.023-3.21-1.945-4.19C13.318 13.65 11.838 13 10 13s-3.317.65-4.404 1.81c-.922.98-1.608 2.39-1.945 4.19zm.486-5.56C5.627 11.85 7.648 11 10 11s4.373.85 5.863 2.44c1.477 1.58 2.366 3.8 2.632 6.46l.11 1.1H1.395l.11-1.1c.266-2.66 1.155-4.88 2.632-6.46z">
-                        </path>
-                    </g>
-                </svg>
-                <p class="hidden xl:block text-xl font-bold">Follow</p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M10 4c-1.105 0-2 .9-2 2s.895 2 2 2 2-.9 2-2-.895-2-2-2zM6 6c0-2.21 1.791-4 4-4s4 1.79 4 4-1.791 4-4 4-4-1.79-4-4zm13 4v3h2v-3h3V8h-3V5h-2v3h-3v2h3zM3.651 19h12.698c-.337-1.8-1.023-3.21-1.945-4.19C13.318 13.65 11.838 13 10 13s-3.317.65-4.404 1.81c-.922.98-1.608 2.39-1.945 4.19zm.486-5.56C5.627 11.85 7.648 11 10 11s4.373.85 5.863 2.44c1.477 1.58 2.366 3.8 2.632 6.46l.11 1.1H1.395l.11-1.1c.266-2.66 1.155-4.88 2.632-6.46z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">Follow</p>
                 </button>
                 <button class="xl:flex gap-x-4">
-                <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
-                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                    <g>
-                        <path
-                            d="M20.7 11.7c0-4.48-3.844-8.2-8.699-8.2-4.854 0-8.698 3.72-8.698 8.2v.015l-.001.014c-.02.667.09 1.225.25 1.767.083.28.176.545.276.839.098.285.202.595.288.918.177.663.284 1.401.156 2.271-.086.582-.274 1.191-.582 1.855 1.264.375 2.55.053 4.013-.599l.455-.203.437.242c1.07.594 1.917 1.08 3.406 1.08 4.855 0 8.7-3.72 8.7-8.199zm2 0c0 5.683-4.84 10.2-10.699 10.2-1.784 0-2.96-.555-3.95-1.095-1.876.768-4.02 1.2-6.245-.075l-.885-.505.524-.875c.54-.904.77-1.581.848-2.118.078-.526.02-.98-.11-1.463-.066-.25-.15-.502-.247-.788-.095-.277-.204-.59-.301-.92-.199-.674-.36-1.449-.332-2.39C1.322 6.002 6.154 1.5 12.002 1.5c5.859 0 10.7 4.518 10.7 10.2z">
-                        </path>
-                    </g>
-                </svg>
-                <p class="hidden xl:block text-xl font-bold">Chat</p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M20.7 11.7c0-4.48-3.844-8.2-8.699-8.2-4.854 0-8.698 3.72-8.698 8.2v.015l-.001.014c-.02.667.09 1.225.25 1.767.083.28.176.545.276.839.098.285.202.595.288.918.177.663.284 1.401.156 2.271-.086.582-.274 1.191-.582 1.855 1.264.375 2.55.053 4.013-.599l.455-.203.437.242c1.07.594 1.917 1.08 3.406 1.08 4.855 0 8.7-3.72 8.7-8.199zm2 0c0 5.683-4.84 10.2-10.699 10.2-1.784 0-2.96-.555-3.95-1.095-1.876.768-4.02 1.2-6.245-.075l-.885-.505.524-.875c.54-.904.77-1.581.848-2.118.078-.526.02-.98-.11-1.463-.066-.25-.15-.502-.247-.788-.095-.277-.204-.59-.301-.92-.199-.674-.36-1.449-.332-2.39C1.322 6.002 6.154 1.5 12.002 1.5c5.859 0 10.7 4.518 10.7 10.2z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">Chat</p>
                 </button>
                 <button class="xl:flex gap-x-4">
-                <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
-                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                    <g>
-                        <path
-                            d="M3 6.42383C3.00022 4.533 4.533 3.00022 6.42383 3H9.61816L12.2168 8.19727L10.6885 9.72461C11.4852 11.4181 12.5812 12.5137 14.2744 13.3105L15.8027 11.7832L21 14.3818V17.5762C20.9998 19.467 19.467 20.9998 17.5762 21C9.5262 21 3 14.4738 3 6.42383ZM5 6.42383C5 13.3692 10.6308 19 17.5762 19C18.3624 18.9998 18.9998 18.3624 19 17.5762V15.6182L16.1973 14.2168L15.207 15.207L14.7412 15.6738L14.1289 15.4287C11.3748 14.3271 9.67293 12.6252 8.57129 9.87109L8.32617 9.25879L8.79297 8.79297L9.7832 7.80273L8.38184 5H6.42383C5.63757 5.00022 5.00022 5.63757 5 6.42383Z">
-                        </path>
-                    </g>
-                </svg>
-                <p class="hidden xl:block text-xl font-bold">Calls</p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M3 6.42383C3.00022 4.533 4.533 3.00022 6.42383 3H9.61816L12.2168 8.19727L10.6885 9.72461C11.4852 11.4181 12.5812 12.5137 14.2744 13.3105L15.8027 11.7832L21 14.3818V17.5762C20.9998 19.467 19.467 20.9998 17.5762 21C9.5262 21 3 14.4738 3 6.42383ZM5 6.42383C5 13.3692 10.6308 19 17.5762 19C18.3624 18.9998 18.9998 18.3624 19 17.5762V15.6182L16.1973 14.2168L15.207 15.207L14.7412 15.6738L14.1289 15.4287C11.3748 14.3271 9.67293 12.6252 8.57129 9.87109L8.32617 9.25879L8.79297 8.79297L9.7832 7.80273L8.38184 5H6.42383C5.63757 5.00022 5.00022 5.63757 5 6.42383Z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">Calls</p>
                 </button>
                 <button class="xl:flex gap-x-4">
-                <svg viewBox="0 0 33 32" aria-hidden="true" height="30" fill="white"
-                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                    <g>
-                        <path
-                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
-                        </path>
-                    </g>
-                </svg>
-                <p class="hidden xl:block text-xl font-bold">Grok</p>
+                    <svg viewBox="0 0 33 32" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">Grok</p>
                 </button>
                 <button class="xl:flex gap-x-4">
-<svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"></path></g></svg>
-                <p class="hidden xl:block text-xl font-bold">History</p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">History</p>
                 </button>
                 <button class="xl:flex gap-x-4">
-<svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M5.651 19h12.698c-.337-1.8-1.023-3.21-1.945-4.19C15.318 13.65 13.838 13 12 13s-3.317.65-4.404 1.81c-.922.98-1.608 2.39-1.945 4.19zm.486-5.56C7.627 11.85 9.648 11 12 11s4.373.85 5.863 2.44c1.477 1.58 2.366 3.8 2.632 6.46l.11 1.1H3.395l.11-1.1c.266-2.66 1.155-4.88 2.632-6.46zM12 4c-1.105 0-2 .9-2 2s.895 2 2 2 2-.9 2-2-.895-2-2-2zM8 6c0-2.21 1.791-4 4-4s4 1.79 4 4-1.791 4-4 4-4-1.79-4-4z"></path></g></svg>
-                <p class="hidden xl:block text-xl font-bold">Profile</p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M5.651 19h12.698c-.337-1.8-1.023-3.21-1.945-4.19C15.318 13.65 13.838 13 12 13s-3.317.65-4.404 1.81c-.922.98-1.608 2.39-1.945 4.19zm.486-5.56C7.627 11.85 9.648 11 12 11s4.373.85 5.863 2.44c1.477 1.58 2.366 3.8 2.632 6.46l.11 1.1H3.395l.11-1.1c.266-2.66 1.155-4.88 2.632-6.46zM12 4c-1.105 0-2 .9-2 2s.895 2 2 2 2-.9 2-2-.895-2-2-2zM8 6c0-2.21 1.791-4 4-4s4 1.79 4 4-1.791 4-4 4-4-1.79-4-4z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">Profile</p>
                 </button>
                 <button class="xl:flex gap-x-4">
-                <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
-                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                    <g>
-                        <path
-                            d="M3.75 12c0-4.56 3.69-8.25 8.25-8.25s8.25 3.69 8.25 8.25-3.69 8.25-8.25 8.25S3.75 16.56 3.75 12zM12 1.75C6.34 1.75 1.75 6.34 1.75 12S6.34 22.25 12 22.25 22.25 17.66 22.25 12 17.66 1.75 12 1.75zm-4.75 11.5c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25S6 11.31 6 12s.56 1.25 1.25 1.25zm9.5 0c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25zM13.25 12c0 .69-.56 1.25-1.25 1.25s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25 1.25.56 1.25 1.25z">
-                        </path>
-                    </g>
-                </svg>
-                <p class="hidden xl:block text-xl font-bold">More</p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M3.75 12c0-4.56 3.69-8.25 8.25-8.25s8.25 3.69 8.25 8.25-3.69 8.25-8.25 8.25S3.75 16.56 3.75 12zM12 1.75C6.34 1.75 1.75 6.34 1.75 12S6.34 22.25 12 22.25 22.25 17.66 22.25 12 17.66 1.75 12 1.75zm-4.75 11.5c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25S6 11.31 6 12s.56 1.25 1.25 1.25zm9.5 0c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25zM13.25 12c0 .69-.56 1.25-1.25 1.25s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25 1.25.56 1.25 1.25z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:block text-xl font-bold">More</p>
                 </button>
 
-                <button class="lg:flex gap-x-4 xl:[&_svg]:hidden xl:justify-center xl:bg-white xl:text-black xl:px-4 xl:py-1.5 xl:rounded-full xl:min-w-[177px]">
-<svg viewBox="0 0 24 24" aria-hidden="true" height="50" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1472mwg r-lrsllp p-2 bg-white rounded-full" style="color: rgb(15, 20, 25);"><g><path d="M10.938 4.5H9.9c-1.136 0-1.929 0-2.546.05-.605.05-.953.143-1.216.277-.564.288-1.023.747-1.31 1.31-.135.264-.228.612-.277 1.218C4.5 7.97 4.5 8.765 4.5 9.9v4.2c0 1.136 0 1.929.05 2.546.05.605.143.953.277 1.216.288.565.747 1.023 1.31 1.31.264.135.612.228 1.217.277.617.05 1.41.051 2.546.051h4.2c1.136 0 1.929 0 2.545-.05.606-.05.954-.143 1.217-.277.565-.288 1.023-.746 1.31-1.31.135-.264.228-.612.277-1.217.05-.617.051-1.41.051-2.546v-1.037h2V14.1c0 1.103.001 1.992-.058 2.709-.06.728-.185 1.368-.487 1.96-.48.941-1.245 1.707-2.185 2.186-.593.302-1.233.428-1.961.488-.718.058-1.606.057-2.71.057H9.9c-1.103 0-1.991.001-2.709-.058-.728-.06-1.368-.185-1.96-.487-.941-.48-1.707-1.245-2.186-2.185-.302-.593-.428-1.233-.487-1.961-.059-.718-.058-1.606-.058-2.71V9.9c0-1.103-.001-1.991.058-2.709.06-.728.185-1.368.487-1.96.48-.941 1.245-1.707 2.185-2.186.593-.302 1.233-.428 1.961-.487.718-.059 1.606-.058 2.71-.058h1.037v2z"></path><path clip-rule="evenodd" d="M16.293 3.293c1.219-1.219 3.195-1.219 4.414 0 1.219 1.219 1.219 3.195 0 4.414l-5.491 5.491c-.533.533-.89.896-1.31 1.179-.356.24-.742.433-1.148.574-.478.167-.983.234-1.729.341l-2.708.387.387-2.708c.107-.746.174-1.25.34-1.729.142-.405.335-.792.575-1.148.283-.42.646-.777 1.179-1.31l5.491-5.491zm3 1.414c-.438-.438-1.148-.438-1.586 0l-5.491 5.491c-.587.587-.784.79-.934 1.013-.144.214-.26.445-.345.688-.088.254-.131.533-.248 1.354l-.01.067.068-.008c.82-.118 1.1-.161 1.354-.25.243-.084.474-.2.688-.344.223-.15.426-.347 1.013-.934l5.491-5.491c.438-.438.438-1.148 0-1.586z" fill-rule="evenodd"></path></g></svg>
-                <p class="hidden xl:inline-block text-lg  font-bold">Post</p>
+                <button
+                    class="lg:flex gap-x-4 xl:[&_svg]:hidden xl:justify-center xl:bg-white xl:text-black xl:px-20 xl:py-1.5 xl:rounded-full hover:bg-white/90">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="50"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1472mwg r-lrsllp p-2 bg-white rounded-full"
+                        style="color: rgb(15, 20, 25);">
+                        <g>
+                            <path
+                                d="M10.938 4.5H9.9c-1.136 0-1.929 0-2.546.05-.605.05-.953.143-1.216.277-.564.288-1.023.747-1.31 1.31-.135.264-.228.612-.277 1.218C4.5 7.97 4.5 8.765 4.5 9.9v4.2c0 1.136 0 1.929.05 2.546.05.605.143.953.277 1.216.288.565.747 1.023 1.31 1.31.264.135.612.228 1.217.277.617.05 1.41.051 2.546.051h4.2c1.136 0 1.929 0 2.545-.05.606-.05.954-.143 1.217-.277.565-.288 1.023-.746 1.31-1.31.135-.264.228-.612.277-1.217.05-.617.051-1.41.051-2.546v-1.037h2V14.1c0 1.103.001 1.992-.058 2.709-.06.728-.185 1.368-.487 1.96-.48.941-1.245 1.707-2.185 2.186-.593.302-1.233.428-1.961.488-.718.058-1.606.057-2.71.057H9.9c-1.103 0-1.991.001-2.709-.058-.728-.06-1.368-.185-1.96-.487-.941-.48-1.707-1.245-2.186-2.185-.302-.593-.428-1.233-.487-1.961-.059-.718-.058-1.606-.058-2.71V9.9c0-1.103-.001-1.991.058-2.709.06-.728.185-1.368.487-1.96.48-.941 1.245-1.707 2.185-2.186.593-.302 1.233-.428 1.961-.487.718-.059 1.606-.058 2.71-.058h1.037v2z">
+                            </path>
+                            <path clip-rule="evenodd"
+                                d="M16.293 3.293c1.219-1.219 3.195-1.219 4.414 0 1.219 1.219 1.219 3.195 0 4.414l-5.491 5.491c-.533.533-.89.896-1.31 1.179-.356.24-.742.433-1.148.574-.478.167-.983.234-1.729.341l-2.708.387.387-2.708c.107-.746.174-1.25.34-1.729.142-.405.335-.792.575-1.148.283-.42.646-.777 1.179-1.31l5.491-5.491zm3 1.414c-.438-.438-1.148-.438-1.586 0l-5.491 5.491c-.587.587-.784.79-.934 1.013-.144.214-.26.445-.345.688-.088.254-.131.533-.248 1.354l-.01.067.068-.008c.82-.118 1.1-.161 1.354-.25.243-.084.474-.2.688-.344.223-.15.426-.347 1.013-.934l5.491-5.491c.438-.438.438-1.148 0-1.586z"
+                                fill-rule="evenodd"></path>
+                        </g>
+                    </svg>
+                    <p class="hidden xl:inline-block text-lg font-bold mx-20">Post</p>
                 </button>
             </div>
 
-            <div class="mt-10 xl:flex items-center gap-x-2">
-                
-            <img src="profile_image.jpg" alt="user_profile" class="h-[45px] rounded-full">
-            <div class="hidden xl:flex flex-col">
-                <p class="font-bold text-sm">Shaik AbdulAziz</p>
-                <p class="text-[rgb(113,118,123)] text-sm">@abdulaziz_sk</p>
-            </div>
-            <div class="hidden xl:block">
-                <svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="white" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i"><g><path d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"></path></g></svg>
-            </div>
+            <div
+                class="mt-5 xl:flex items-center gap-x-2 w-full py-2 px-3.5 rounded-full cursor-pointer hover:bg-white/10 transition-colors duration-300">
+
+                <img src="profile_image.jpg" alt="user_profile" class="h-[45px] rounded-full">
+                <div class="hidden xl:flex flex-col">
+                    <p class="font-bold text-sm">Shaik AbdulAziz</p>
+                    <p class="text-[rgb(113,118,123)] text-sm">@abdulaziz_sk</p>
+                </div>
+                <div class="hidden xl:block ml-auto">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="white"
+                        class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i">
+                        <g>
+                            <path
+                                d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
             </div>
 
         </section>
 
-        <section class="main border-x border-[rgb(113,118,123)] sm:max-w-[75vw]">
+        <section
+            class="main sm:border-x border-[rgb(113,118,123)] max-w-[550px] [&_.post-media_video]:max-h-[50vh] lg:[&_.post-media_video]:max-h-[70vh]">
             <div class="flex items-center border-b border-[rgb(113,118,123)] mt-2">
                 <div class="flex w-[90%]">
                     <button class="grow text-center">
@@ -168,9 +213,9 @@
                 <img src="profile_image.jpg" alt="profile_image" class="h-[45px] rounded-full">
                 <div class="flex flex-col grow">
                     <textarea placeholder="What's happening?"
-                        class="min-h-[135px] text-2xl resize-none border-b border-[rgb(113,118,123)] focus:outline-none"></textarea>
-                    <div class="flex gap-x-1.5 items-center sm:justify-between">
-                        <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="rgb(113,118,123)"
+                        class="min-h-[135px] xl:min-h-auto text-2xl resize-none border-b border-[rgb(113,118,123)] focus:outline-none"></textarea>
+                    <div class="flex gap-x-1.5 items-center sm:justify-start [&_svg]:rounded-full [&_svg]:p-2 [&_svg]:hover:bg-white/10 [&_svg]:hover:scale-120 [&_svg]:hover:fill-white [&_svg]:transition-all [&_svg]:duration-300 [&_svg]:ease-linear [&_svg]:cursor-pointer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" height="38" fill="rgb(113,118,123)"
                             class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1otekoa r-175dae4 r-1cciapn">
                             <g>
                                 <path d="M15 7c1.105 0 2 .895 2 2s-.895 2-2 2-2-.895-2-2 .895-2 2-2z"></path>
@@ -179,7 +224,7 @@
                                     fill-rule="evenodd"></path>
                             </g>
                         </svg>
-                        <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="rgb(113,118,123)"
+                        <svg viewBox="0 0 24 24" aria-hidden="true" height="38" fill="rgb(113,118,123)"
                             class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1otekoa r-175dae4 r-1cciapn">
                             <g>
                                 <path
@@ -190,7 +235,7 @@
                                     fill-rule="evenodd"></path>
                             </g>
                         </svg>
-                        <svg viewBox="0 0 33 32" aria-hidden="true" height="30" fill="rgb(113,118,123)"
+                        <svg viewBox="0 0 33 32" aria-hidden="true" height="38" fill="rgb(113,118,123)"
                             class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1otekoa r-175dae4 r-1cciapn">
                             <g>
                                 <path
@@ -198,7 +243,7 @@
                                 </path>
                             </g>
                         </svg>
-                        <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="rgb(113,118,123)"
+                        <svg viewBox="0 0 24 24" aria-hidden="true" height="38" fill="rgb(113,118,123)"
                             class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1otekoa r-175dae4 r-1cciapn">
                             <g>
                                 <path
@@ -209,7 +254,7 @@
                                     fill-rule="evenodd"></path>
                             </g>
                         </svg>
-                        <svg viewBox="0 0 24 24" aria-hidden="true" height="30" fill="rgb(113,118,123)"
+                        <svg viewBox="0 0 24 24" aria-hidden="true" height="38" fill="rgb(113,118,123)"
                             class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1otekoa r-175dae4 r-1cciapn">
                             <g>
                                 <path
@@ -218,17 +263,17 @@
                             </g>
                         </svg>
                         <button
-                            class="bg-blue-500 text-white rounded-full py-2 px-4 my-2 ml-3 sm:justify-end">Post</button>
+                            class="bg-blue-500 text-white rounded-full py-2 px-4 my-2 ml-auto sm:justify-end cursor-pointer">Post</button>
                     </div>
                 </div>
             </div>
             <div class="other-post flex px-3.5 pt-3 pb-1 gap-x-2 relative border-b border-[rgb(113,118,123)]">
-                <img src="profile_image.jpg" alt="user_profile" class="h-[45px] rounded-full ">
+                <img src="profile_1.jpg" alt="user_profile" class="h-[45px] rounded-full ">
                 <div class="flex flex-col">
                     <div class="user-details flex items-center gap-x-3">
-                        <p class="font-bold text-base max-w-[105px] overflow-hidden sm:max-w-fit">Python programmer</p>
+                        <p class="font-bold text-base max-w-[105px] overflow-hidden sm:max-w-fit">Python Programming</p>
                         <p class="text-[rgb(113,118,123)] text-base max-w-[85px] overflow-hidden sm:max-w-fit">
-                            @python_programmer</p>
+                            @PythonPr</p>
                         <p class="text-base text-[rgb(113,118,123)]">30m</p>
                         <svg viewBox="0 0 24 24" aria-hidden="true" height="25" fill="rgb(113,118,123)"
                             class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi absolute right-3.5">
@@ -239,7 +284,7 @@
                             </g>
                         </svg>
                     </div>
-                    <div class="post-content whitespace-pre-wrap font-semibold text-sm max-h-[162px] overflow-hidden">
+                    <div class="post-content font-semibold text-sm max-h-[162px] overflow-hidden">
                         What if your calendar
                         reminded you to make a wish every time you saw 11:11?
 
@@ -250,8 +295,8 @@
                         Books: This comprehensive guide features 100 carefully selected Python loop interview questions,
                         designed to take you from beginner to advanced level.
                     </div>
-                    <button class="text-base text-blue-500 w-fit mt-2">Show more</button>
-                    <div class="post-image mt-4">
+                    <button class="text-base text-blue-500 w-fit mt-2 cursor-pointer">Show more</button>
+                    <div class="post-media mt-4">
                         <img src="post-image.jpg" alt="Post_image" class="rounded-2xl">
                     </div>
                     <div
@@ -319,11 +364,12 @@
                 </div>
             </div>
             <div class="other-post flex px-3.5 pt-3 pb-1 gap-x-2 relative border-b border-[rgb(113,118,123)]">
-                <img src="profile_image.jpg" alt="user_profile" class="h-[45px] rounded-full ">
+                <img src="profile_2.jpg" alt="user_profile" class="h-[45px] rounded-full ">
                 <div class="flex flex-col">
                     <div class="user-details flex items-center gap-x-3">
-                        <p class="font-bold text-base max-w-[105px] overflow-hidden">Python progr</p>
-                        <p class="text-[rgb(113,118,123)] text-base max-w-[85px] overflow-hidden">@python_programmer</p>
+                        <p class="font-bold text-base max-w-[105px] overflow-hidden sm:max-w-fit">yash.jsx</p>
+                        <p class="text-[rgb(113,118,123)] text-base max-w-[85px] overflow-hidden sm:max-w-fit">
+                            @yashmp2004</p>
                         <p class="text-base text-[rgb(113,118,123)]">30m</p>
                         <svg viewBox="0 0 24 24" aria-hidden="true" height="25" fill="rgb(113,118,123)"
                             class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi absolute right-3.5">
@@ -334,20 +380,194 @@
                             </g>
                         </svg>
                     </div>
-                    <div class="post-content whitespace-pre-wrap font-semibold text-sm max-h-[162px] overflow-hidden">
-                        What if your calendar
-                        reminded you to make a wish every time you saw 11:11?
-
-                        Build a beautiful Python Wish Calendar using calendar and rich — and highlight November 11
-                        (11/11)
-                        as your special wish day!
-
-                        Books: This comprehensive guide features 100 carefully selected Python loop interview questions,
-                        designed to take you from beginner to advanced level.
+                    <div class="post-content font-semibold text-sm max-h-[162px] overflow-hidden">
+                        Vibe coding without a software engineering background is just speedrunning technical debt.
+                        AI can get you to a working demo in an afternoon, sure. The problem starts when something breaks
+                        in production and you’re staring at 5,000 lines of code you don't understand.
+                        AI handles the typing, not the accountability.
                     </div>
-                    <button class="text-base text-blue-500 w-fit mt-2">Show more</button>
-                    <div class="post-image mt-4">
-                        <img src="post-image.jpg" alt="Post_image" class="rounded-2xl">
+                    <button class="text-base text-blue-500 w-fit mt-2 cursor-pointer">Show more</button>
+                    <div class="post-media mt-4">
+                        <video src="post_video_1.mp4" class="rounded-2xl" autoplay controls muted></video>
+                    </div>
+                    <div
+                        class="user-interaction flex items-center mt-3 justify-between [&_svg]:p-2 [&_svg]:rounded-full">
+                        <button
+                            class="flex items-center hover:[&>p]:text-blue-500 hover:[&>svg]:fill-blue-500 hover:[&>svg]:bg-blue-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0q">
+                                <g>
+                                    <path
+                                        d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <p class="text-[rgb(113,118,123)] text-sm">2</p>
+                        </button>
+                        <button
+                            class="flex items-center   hover:[&>p]:text-green-500 hover:[&>svg]:fill-green-500 hover:[&>svg]:bg-green-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <p class="text-[rgb(113,118,123)] text-sm">2</p>
+                        </button>
+                        <button
+                            class="flex items-center  hover:[&>p]:text-pink-500 hover:[&>svg]:fill-pink-500 hover:[&>svg]:bg-pink-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <p class="text-[rgb(113,118,123)] text-sm">2</p>
+                        </button>
+                        <button
+                            class="flex items-center  hover:[&>p]:text-blue-500 hover:[&>svg]:fill-blue-500 hover:[&>svg]:bg-blue-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <p class="text-[rgb(113,118,123)] text-sm">2</p>
+                        </button>
+                        <button
+                            class="  hover:[&>p]:text-blue-500 hover:[&>svg]:fill-blue-500 hover:[&>svg]:bg-blue-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="other-post flex px-3.5 pt-3 pb-1 gap-x-2 relative border-b border-[rgb(113,118,123)]">
+                <img src="profile_4.jpg" alt="user_profile" class="h-[45px] rounded-full ">
+                <div class="flex flex-col">
+                    <div class="user-details flex items-center gap-x-3">
+                        <p class="font-bold text-base max-w-[105px] overflow-hidden">Verse 👾</p>
+                        <p class="text-[rgb(113,118,123)] text-base max-w-[85px] sm:max-w-none overflow-hidden">
+                            @AmbroseAbaasa</p>
+                        <p class="text-base text-[rgb(113,118,123)]">14h</p>
+                        <svg viewBox="0 0 24 24" aria-hidden="true" height="25" fill="rgb(113,118,123)"
+                            class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi absolute right-3.5">
+                            <g>
+                                <path
+                                    d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="post-content font-semibold text-sm max-h-[162px] overflow-hidden">
+                        Whenever I try to code manually
+                    </div>
+                    <div class="post-media mt-4">
+                        <img src="post_image_2.jpg" alt="post_media" class="rounded-2xl">
+                    </div>
+                    <div
+                        class="user-interaction flex items-center mt-3 justify-between [&_svg]:p-2 [&_svg]:rounded-full">
+                        <button
+                            class="flex items-center hover:[&>p]:text-blue-500 hover:[&>svg]:fill-blue-500 hover:[&>svg]:bg-blue-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0q">
+                                <g>
+                                    <path
+                                        d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <p class="text-[rgb(113,118,123)] text-sm">2</p>
+                        </button>
+                        <button
+                            class="flex items-center   hover:[&>p]:text-green-500 hover:[&>svg]:fill-green-500 hover:[&>svg]:bg-green-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <p class="text-[rgb(113,118,123)] text-sm">2</p>
+                        </button>
+                        <button
+                            class="flex items-center  hover:[&>p]:text-pink-500 hover:[&>svg]:fill-pink-500 hover:[&>svg]:bg-pink-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <p class="text-[rgb(113,118,123)] text-sm">2</p>
+                        </button>
+                        <button
+                            class="flex items-center  hover:[&>p]:text-blue-500 hover:[&>svg]:fill-blue-500 hover:[&>svg]:bg-blue-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <p class="text-[rgb(113,118,123)] text-sm">2</p>
+                        </button>
+                        <button
+                            class="  hover:[&>p]:text-blue-500 hover:[&>svg]:fill-blue-500 hover:[&>svg]:bg-blue-500/15">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" height="35" fill="rgb(113,118,123)"
+                                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="other-post flex px-3.5 pt-3 pb-1 gap-x-2 relative border-b border-[rgb(113,118,123)]">
+                <img src="profile_3.jpg" alt="user_profile" class="h-[45px] rounded-full ">
+                <div class="flex flex-col">
+                    <div class="user-details flex items-center gap-x-3">
+                        <p class="font-bold text-base max-w-[105px] overflow-hidden">𝐇𝐢𝐫𝐤𝐚𝐧 (𐂂)</p>
+                        <p class="text-[rgb(113,118,123)] text-base max-w-[85px] overflow-hidden">@HGouldian</p>
+                        <p class="text-base text-[rgb(113,118,123)]">30m</p>
+                        <svg viewBox="0 0 24 24" aria-hidden="true" height="25" fill="rgb(113,118,123)"
+                            class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi absolute right-3.5">
+                            <g>
+                                <path
+                                    d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="post-content font-semibold text-sm max-h-[162px] overflow-hidden">
+                        Mother rabbits are some of the harshest mothers in nature when it comes to their babies, for two
+                        reasons:
+
+                        1. She visits the nest only once a day, and only for a very short time, to nurse her babies.
+                        That’s why people who raise rabbits have to catch the mother and hold her down to make her nurse
+                        her babies.
+                    </div>
+                    <button class="text-base text-blue-500 w-fit mt-2 cursor-pointer">Show more</button>
+                    <div class="post-media mt-4">
+                        <video src="post_video_2.mp4" autoplay controls muted class="rounded-2xl"></video>
                     </div>
                     <div
                         class="user-interaction flex items-center mt-3 justify-between [&_svg]:p-2 [&_svg]:rounded-full">
@@ -414,7 +634,8 @@
                 </div>
             </div>
         </section>
-        <section class="hidden lg:flex right min-w-[350px] px-4 pt-1 flex-col gap-y-4">
+        <section
+            class="hidden lg:flex right min-w-[350px] px-4 pt-2 flex-col gap-y-4 sm:max-w-[400px] sticky top-0 h-fit">
             <div class="flex items-center relative">
                 <div class="absolute flex items-center inset-y-0 left-0 pl-3">
                     <svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="rgb(113,118,123)"
@@ -427,7 +648,7 @@
                     </svg>
                 </div>
                 <input type="text" placeholder="Search"
-                    class="border border-[rgb(113,118,123)] rounded-full pl-8 p-2 w-full outline-none focus:border-3 focus:border-blue-500">
+                    class="border border-[rgb(113,118,123)] rounded-full pl-8 p-2 w-full outline-none focus:ring-3 focus:ring-blue-500 focus:border-transparent transition duration-300 linear">
             </div>
 
             <div class="flex flex-col gap-2 border border-[rgb(113,118,123)] p-4 rounded-2xl">
@@ -439,15 +660,17 @@
             <div class="border border-[rgb(113,118,123)] p-4 rounded-2xl space-y-5">
                 <div class="flex items-center justify-between">
                     <p class="text-2xl font-bold">Today's News</p>
-                    <svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="white"
-                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1hjwoze r-12ym1je"
-                        style="color: rgb(239, 243, 244);">
-                        <g>
-                            <path
-                                d="M10.59 12L4.54 5.96l1.42-1.42L12 10.59l6.04-6.05 1.42 1.42L13.41 12l6.05 6.04-1.42 1.42L12 13.41l-6.04 6.05-1.42-1.42L10.59 12z">
-                            </path>
-                        </g>
-                    </svg>
+                    <button class="cursor-pointer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="white"
+                            class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1hjwoze r-12ym1je"
+                            style="color: rgb(239, 243, 244);">
+                            <g>
+                                <path
+                                    d="M10.59 12L4.54 5.96l1.42-1.42L12 10.59l6.04-6.05 1.42 1.42L13.41 12l6.05 6.04-1.42 1.42L12 13.41l-6.04 6.05-1.42-1.42L10.59 12z">
+                                </path>
+                            </g>
+                        </svg>
+                    </button>
                 </div>
                 <div class="news-item space-y-2">
                     <p class="font-bold">X's Hidden Share Menu Trick for Clean Post Screenshots</p>
@@ -456,93 +679,81 @@
                             <img src="profile_image.jpg" alt="profile_image" class="h-[25px] rounded-full">
                         </div>
                         <p class="text-[rgb(113,118,123)] text-sm">5 hours ago</p>
-                        <p class="text-[rgb(113,118,123)] text-sm">Other</p>
+                        <p class="text-[rgb(113,118,123)] text-sm">News</p>
                         <p class="text-[rgb(113,118,123)] text-sm">4,959 posts</p>
                     </div>
                 </div>
                 <div class="news-item space-y-2">
-                    <p class="font-bold">X's Hidden Share Menu Trick for Clean Post Screenshots</p>
+                    <p class="font-bold">Tragic Reports of UNN Pharmacy Students Dead After Party</p>
                     <div class="flex items-center gap-x-2">
                         <div>
                             <img src="profile_image.jpg" alt="profile_image" class="h-[25px] rounded-full">
                         </div>
-                        <p class="text-[rgb(113,118,123)] text-sm">5 hours ago</p>
-                        <p class="text-[rgb(113,118,123)] text-sm">Other</p>
-                        <p class="text-[rgb(113,118,123)] text-sm">4,959 posts</p>
+                        <p class="text-[rgb(113,118,123)] text-sm">Trending now</p>
+                        <p class="text-[rgb(113,118,123)] text-sm">News</p>
+                        <p class="text-[rgb(113,118,123)] text-sm">264 posts</p>
                     </div>
                 </div>
                 <div class="news-item space-y-2">
-                    <p class="font-bold">X's Hidden Share Menu Trick for Clean Post Screenshots</p>
+                    <p class="font-bold">Math Riddles Challenge Sharers Across Platforms</p>
                     <div class="flex items-center gap-x-2">
                         <div>
                             <img src="profile_image.jpg" alt="profile_image" class="h-[25px] rounded-full">
                         </div>
-                        <p class="text-[rgb(113,118,123)] text-sm">5 hours ago</p>
+                        <p class="text-[rgb(113,118,123)] text-sm">Trending now</p>
                         <p class="text-[rgb(113,118,123)] text-sm">Other</p>
-                        <p class="text-[rgb(113,118,123)] text-sm">4,959 posts</p>
+                        <p class="text-[rgb(113,118,123)] text-sm">2,258 posts</p>
                     </div>
                 </div>
             </div>
 
-            <div class="border border-[rgb(113,118,123)] p-4 rounded-2xl space-y-4">
+            <div class="border border-[rgb(113,118,123)] p-4 rounded-2xl space-y-4 [&_button]:cursor-pointer">
                 <p class="font-bold text-xl">What's happening</p>
                 <div class="item">
                     <div class="flex items-center justify-between">
-                        <div class="flex items-center space-x-2">
-                            <p class="text-sm text-[rgb(113,118,123)]">Sports</p>
-                            <p class="text-sm text-[rgb(113,118,123)]">Trending</p>
-                        </div>
-                        <div><svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="rgb(113,118,123)"
+                        <p class="text-sm text-[rgb(113,118,123)]">Politics · Trending</p>
+                        <button><svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="rgb(113,118,123)"
                                 class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
                                 <g>
                                     <path
                                         d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
                                     </path>
                                 </g>
-                            </svg></div>
+                            </svg></button>
                     </div>
                     <p class="font-bold text-lg">Samreen Kaur</p>
                 </div>
                 <div class="item">
                     <div class="flex items-center justify-between">
-                        <div class="flex items-center space-x-2">
-                            <p class="text-sm text-[rgb(113,118,123)]">Sports</p>
-                            <p class="text-sm text-[rgb(113,118,123)]">Trending</p>
-                        </div>
-                        <div><svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="rgb(113,118,123)"
+                        <p class="text-sm text-[rgb(113,118,123)]">Trending in India</p>
+                        <button><svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="rgb(113,118,123)"
                                 class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
                                 <g>
                                     <path
                                         d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
                                     </path>
                                 </g>
-                            </svg></div>
+                            </svg></button>
                     </div>
-                    <p class="font-bold text-lg">Samreen Kaur</p>
+                    <p class="font-bold text-lg">#BombThreat</p>
                 </div>
                 <div class="item">
                     <div class="flex items-center justify-between">
-                        <div class="flex items-center space-x-2">
-                            <p class="text-sm text-[rgb(113,118,123)]">Sports</p>
-                            <p class="text-sm text-[rgb(113,118,123)]">Trending</p>
-                        </div>
-                        <div><svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="rgb(113,118,123)"
+                        <p class="text-sm text-[rgb(113,118,123)]">Trending in Hyderabad</p>
+                        <button><svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="rgb(113,118,123)"
                                 class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
                                 <g>
                                     <path
                                         d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
                                     </path>
                                 </g>
-                            </svg></div>
+                            </svg></button>
                     </div>
-                    <p class="font-bold text-lg">Samreen Kaur</p>
+                    <p class="font-bold text-lg">#ChandrababuNaidu</p>
                 </div>
                 <div class="item">
                     <div class="flex items-center justify-between">
-                        <div class="flex items-center space-x-2">
-                            <p class="text-sm text-[rgb(113,118,123)]">Sports</p>
-                            <p class="text-sm text-[rgb(113,118,123)]">Trending</p>
-                        </div>
+                        <p class="text-sm text-[rgb(113,118,123)]">Trending in India</p>
                         <div><svg viewBox="0 0 24 24" aria-hidden="true" height="18" fill="rgb(113,118,123)"
                                 class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
                                 <g>
@@ -552,39 +763,48 @@
                                 </g>
                             </svg></div>
                     </div>
-                    <p class="font-bold text-lg">Samreen Kaur</p>
+                    <p class="font-bold text-lg">ROHIT IMPACT DEFINES BB10</p>
                 </div>
             </div>
 
-            <div class="border border-[rgb(113,118,123)] p-4 rounded-2xl space-y-4">
+            <div class="border border-[rgb(113,118,123)] p-4 rounded-2xl space-y-4 [&_button]:ml-auto [&_button]:cursor-pointer">
 
                 <p class="font-bold text-xl">Who to follow</p>
 
                 <div class="item flex items-center gap-x-2.5">
-                    <img src="profile_image.jpg" alt="profile_image" class="h-[35px] rounded-full">
+                    <img src="profile_5.jpg" alt="profile_image" class="h-[35px] rounded-full">
                     <div class="flex flex-col">
-                        <p class="font-bold">Python Programmer</p>
-                        <p class="text-[rgb(113,118,123)]">@python_programmer</p>
+                        <p class="font-bold">freeCodeCamp.org</p>
+                        <p class="text-[rgb(113,118,123)]">@freeCodeCamp</p>
                     </div>
                     <button class="px-3.5 py-1.5 bg-white text-black rounded-full">Follow</button>
                 </div>
                 <div class="item flex items-center gap-x-2.5">
-                    <img src="profile_image.jpg" alt="profile_image" class="h-[35px] rounded-full">
+                    <img src="profile_6.jpg" alt="profile_image" class="h-[35px] rounded-full">
                     <div class="flex flex-col">
-                        <p class="font-bold">Python Programmer</p>
-                        <p class="text-[rgb(113,118,123)]">@python_programmer</p>
+                        <p class="font-bold">Islamic Motivational Quote Image</p>
+                        <p class="text-[rgb(113,118,123)]">@RoShZiMu</p>
                     </div>
                     <button class="px-3.5 py-1.5 bg-white text-black rounded-full">Follow</button>
                 </div>
                 <div class="item flex items-center gap-x-2.5">
-                    <img src="profile_image.jpg" alt="profile_image" class="h-[35px] rounded-full">
+                    <img src="profile_7.jpg" alt="profile_image" class="h-[35px] rounded-full">
                     <div class="flex flex-col">
-                        <p class="font-bold">Python Programmer</p>
-                        <p class="text-[rgb(113,118,123)]">@python_programmer</p>
+                        <p class="font-bold">Remind Me JavaScript</p>
+                        <p class="text-[rgb(113,118,123)]">@remindmejs</p>
                     </div>
                     <button class="px-3.5 py-1.5 bg-white text-black rounded-full">Follow</button>
                 </div>
 
+            </div>
+            <div class="footer p-4 flex flex-wrap max-w-[280px] text-sm gap-x-2.5 gap-y-1.5 text-[rgb(113,118,123)] [&_p]:hover:underline ">
+                <p><a href="">Terms</a></p>
+                <p><a href="">Privacy</a></p>
+                <p><a href="">Cookies</a></p>
+                <p><a href="">Accessibility</a></p>
+                <p><a href="">Ads Info</a></p>
+                <p><a href="">More</a></p>
+                <p><a href="">&copy; 2026 X Corp.</a></p>
             </div>
         </section>
     </main>
